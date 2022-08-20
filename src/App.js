@@ -14,12 +14,12 @@ export class App extends React.Component{
                 <h1>Hello!</h1>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<Layout />}>
+                        <Route path="/test" element={<Layout />}>
                         <Route index element={<Home />} />
-                        <Route path="metronome" element={<MyMetronome />} />
-                        <Route path="greetings" element={<Greetings />} />
-                        <Route path="silliness" element={<Silliness />} />
-                        <Route path="tictactoe" element={<TicTacToe />} />
+                        <Route path="/test/metronome" element={<MyMetronome />} />
+                        <Route path="/test/greetings" element={<Greetings />} />
+                        <Route path="/test/silliness" element={<Silliness />} />
+                        <Route path="/test/tictactoe" element={<TicTacToe />} />
                         </Route>
                     </Routes>
                 </BrowserRouter>
