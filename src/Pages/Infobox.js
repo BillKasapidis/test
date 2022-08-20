@@ -19,8 +19,8 @@ function Infobox(props) {
           <Offcanvas.Body>
             {props.type === 'Metronome' && 
             <p>
-                This metronome app is built using classes. Both the BPM and the Play/Stop button are handled by 
-                state. This isn't very modern, as developers nowadays prefer using functions and handling their state via Hooks.
+                This metronome app is built using classes. Both the BPM and the Play/Stop button are classes and their values are handled by 
+                state. This isn't very modern, as developers nowadays prefer using function components and handling their state via Hooks.
             </p>
             }
             {props.type === 'Madlib' && 
@@ -33,6 +33,11 @@ function Infobox(props) {
             <p>
                 The game board consists of 9 empty buttons that are part of the same array. When you click on a box, as long as it's empty, it alters its state to hold
                 the current player's symbol. The game checks for a winner with every click. 
+            </p>
+            }
+            {props.type === 'Greetings' && 
+            <p>
+                A simple page that displays the user's input through a class component. Every time the user types something, the component's state is changed.
             </p>
             }
             

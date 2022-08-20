@@ -11,14 +11,14 @@ export class App extends React.Component{
     render(){
         return(
             <>
-                <h1>Hello!</h1>
+                <h2>Bill Kasapidis</h2>
                 <BrowserRouter>
                     <Routes>
                         <Route path="/test" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="/test/metronome" element={<MyMetronome />} />
                         <Route path="/test/greetings" element={<Greetings />} />
-                        <Route path="/test/silliness" element={<Silliness />} />
+                        <Route path="/test/madlib" element={<Silliness />} />
                         <Route path="/test/tictactoe" element={<TicTacToe />} />
                         </Route>
                     </Routes>
