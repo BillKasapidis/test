@@ -1,0 +1,76 @@
+.header {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;  
+}
+
+.infobox {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 30px;
+}
+
+.metronome{
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+
+}
+
+.madlib{
+  position: absolute;
+  bottom: 50%;
+  right: 30%;
+  width: 300px;
+  border: 3px solid #73AD21;
+
+}
+
+.madlibInput {
+  margin: auto;
+  width: 50%;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* .game{
+} */
+
+.game-board{
+  margin: auto;
+  width:150px;
+}
+
+.metronome-div{
+  margin: auto;
+  width:800px;
+  padding-left: 10%;
+}
+
+.metronome{
+  margin: auto;
+  width:500px;
+}
