@@ -93,14 +93,15 @@ function Silliness (){
             <p>Lastly, tell me a random noun: <input type='text' onChange={changeValue} value={noun2} id='noun2' /></p>
 
             <Button variant="danger" onClick={() => setShowMadlib(!showMadlib)}>{showMadlib ? 'Ok, enough!' : 'Show me!'}</Button>
-        </div>
-    
+        
         { showMadlib && 
-        <p className='madlib'>
+        <p>
             It was a {adjective1}, cold November day. I woke up to the {adjective2} smell of {typeOfBird} roasting in the {roomInHouse} downstairs. I {verbPastTense} down the stairs to see if I could help {verb} the dinner. My mom said, "See if {relativeName} needs a fresh {noun1}." So I carried a tray of glasses full of {liquid} into the {gerund1} room. When I got there, I couldn't believe my {partOfBodyPlural}! There were {pluranNoun} {gerund2} on the {noun2}! 
         </p>
         }
         
+        </div>
+    
         </>
     )
 }
